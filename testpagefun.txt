@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>A page to look at. zomg.</title>
+
+</head>
+
+<body>
+
+    <form>
+        <input type="text" id="firstName" name="firstName"/>
+        <input type="text" id="lastName" name="lastName"/>
+        <input type="text" id="middleName" name="middleName"/>
+        <button type="button" onclick="nameInfo()">Submit</button>
+        <script>alert("Check the console, kiddies.")</script>
+    </form>
+    
+        
+    
+        <p id="fullName"></p>
+
+        <p>This is a testing page with random lines of code.
+                Maybe you'll find it amusing. Maybe you won't.
+        </p>
+
+</body>
+
+</html>
